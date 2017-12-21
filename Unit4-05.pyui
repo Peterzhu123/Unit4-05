@@ -1,0 +1,125 @@
+[
+  {
+    "nodes" : [
+      {
+        "nodes" : [
+
+        ],
+        "frame" : "{{28, 26}, {379, 32}}",
+        "class" : "Label",
+        "attributes" : {
+          "name" : "label",
+          "frame" : "{{151, 169}, {150, 32}}",
+          "uuid" : "F92A13EB-7E08-4E75-B3E5-DA8D746D69D6",
+          "class" : "Label",
+          "alignment" : "left",
+          "text" : "Enter the height of the cylinder",
+          "font_size" : 18,
+          "font_name" : "<System>"
+        },
+        "selected" : false
+      },
+      {
+        "nodes" : [
+
+        ],
+        "frame" : "{{28, 66}, {379, 32}}",
+        "class" : "TextField",
+        "attributes" : {
+          "name" : "height_textfield",
+          "frame" : "{{126, 169}, {200, 32}}",
+          "spellchecking_type" : "default",
+          "class" : "TextField",
+          "uuid" : "5A223492-6209-4DAD-9BB9-02EF0D01B67D",
+          "alignment" : "left",
+          "autocorrection_type" : "default",
+          "font_size" : 17,
+          "font_name" : "<System>"
+        },
+        "selected" : false
+      },
+      {
+        "nodes" : [
+
+        ],
+        "frame" : "{{21, 106}, {379, 32}}",
+        "class" : "Label",
+        "attributes" : {
+          "name" : "label",
+          "frame" : "{{151, 169}, {150, 32}}",
+          "uuid" : "AF378B39-9286-43A2-A208-62B77E462CCC",
+          "class" : "Label",
+          "alignment" : "left",
+          "text" : "Enter the radius of the cylinder",
+          "font_size" : 18,
+          "font_name" : "<System>"
+        },
+        "selected" : false
+      },
+      {
+        "nodes" : [
+
+        ],
+        "frame" : "{{21, 146}, {386, 32}}",
+        "class" : "TextField",
+        "attributes" : {
+          "name" : "radius_textfield",
+          "frame" : "{{126, 169}, {200, 32}}",
+          "spellchecking_type" : "default",
+          "class" : "TextField",
+          "uuid" : "8351FB84-192C-4EB4-B3E0-3BA509B30412",
+          "alignment" : "left",
+          "autocorrection_type" : "default",
+          "font_size" : 17,
+          "font_name" : "<System>"
+        },
+        "selected" : false
+      },
+      {
+        "nodes" : [
+
+        ],
+        "frame" : "{{21, 237}, {379, 32}}",
+        "class" : "Label",
+        "attributes" : {
+          "name" : "answer_label",
+          "frame" : "{{151, 169}, {150, 32}}",
+          "uuid" : "05AA6E9E-5435-4AAF-9890-6ACBEF6A1DD6",
+          "class" : "Label",
+          "alignment" : "left",
+          "text" : "The answer is    ",
+          "font_size" : 18,
+          "font_name" : "<System>"
+        },
+        "selected" : true
+      },
+      {
+        "nodes" : [
+
+        ],
+        "frame" : "{{180, 186}, {149, 32}}",
+        "class" : "Button",
+        "attributes" : {
+          "action" : "calculate_button",
+          "frame" : "{{186, 169}, {80, 32}}",
+          "title" : "Calculate",
+          "uuid" : "EF71CE04-9CFA-426D-BF8D-0332E9775690",
+          "class" : "Button",
+          "name" : "calculate_button",
+          "font_size" : 15
+        },
+        "selected" : false
+      }
+    ],
+    "frame" : "{{0, 0}, {452, 370}}",
+    "class" : "View",
+    "attributes" : {
+      "enabled" : true,
+      "background_color" : "RGBA(1.000000,1.000000,1.000000,1.000000)",
+      "tint_color" : "RGBA(0.000000,0.478000,1.000000,1.000000)",
+      "border_color" : "RGBA(0.000000,0.000000,0.000000,1.000000)",
+      "flex" : ""
+    },
+    "selected" : false
+  }
+]
